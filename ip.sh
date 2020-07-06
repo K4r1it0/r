@@ -4,7 +4,11 @@ function usage(){
 	echo "-m --manual: for manual mood"	
 	echo "-e --enumerate: for hosts enumeration mood"
 }
-
+if [ "$#" -eq  "0" ]
+   then
+     usage
+     exit
+ fi
 while [ "$1" != "" ]; do
     case $1 in
         -t | --target )         shift
