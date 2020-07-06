@@ -1,5 +1,5 @@
 function usage(){
-	echo "Usage: ./real.sh --target https://target.com -f queueTime -m"
+	echo "Usage: ./ip.sh --target https://target.com -f queueTime -m"
 	echo "-f --fingerprint: A valid string from target response"
 	echo "-m --manual: for manual mood"	
 	echo "-e --enumerate: for hosts enumeration mood"
