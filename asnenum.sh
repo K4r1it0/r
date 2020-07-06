@@ -1,6 +1,6 @@
 if [ "$#" -eq  "0" ]
    then
-     echo "Usage: ./KariemAli.sh google.com"
+     echo "Usage: ./asnenum.sh google.com"
      exit
  fi
 
